@@ -1,0 +1,35 @@
+export const projects = [
+  {
+    title: "Medan City Real Estate Price Prediction",
+    image: "/kota-medan.png",
+    desc: "End-to-end ML pipeline for property price prediction in Medan. Web scraping, feature engineering, stacking regressor, Optuna tuning, Streamlit deployment.",
+    tags: ["Python", "Scikit-learn", "Optuna", "Streamlit"],
+    github: "https://github.com/S4njuuu3291/medan-property-price-prediction",
+    demo: "https://medan-properti-demo.streamlit.app/",
+    category: "ML",
+  },
+  {
+    title: "Loan Default Risk Prediction",
+    image: "/finance.png",
+    desc: "ML models to predict credit default risk with Logistic Regression & Random Forest. Feature insights & SHAP explainability for business impact.",
+    tags: ["Python", "Scikit-learn", "Optuna", "SHAP"],
+    github: "https://github.com/S4njuuu3291/german-credit-data",
+    category: "ML",
+  },
+  {
+    title: "Chatbot LMS Unpad",
+    image: "/chatbot.png",
+    desc: "IndoBERT-based chatbot for academic Q&A. Built with FastAPI, Supabase, REST API integration.",
+    tags: ["Python", "FastAPI", "Supabase", "IndoBERT"],
+    github: "https://github.com/S4njuuu3291/lms-chatbot-pipp",
+    category: "NLP",
+  },
+  {
+    title: "Power BI – Online Retail Sales Dashboard",
+    image: "/powerbi.png",
+    desc: "Analyzed 500k+ transactions with star schema & DAX. Interactive dashboard with YoY revenue, repeat buyers, return rates.",
+    tags: ["Power BI", "DAX", "ETL"],
+    github: "https://github.com/S4njuuu3291/PowerBI-OnlineRetail-Sales-Dashboard",
+    category: "Dashboard",
+  },
+];
