@@ -34,7 +34,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start animate-fade-in-up delay-400">
             <a
-              href="/resume.pdf"
+              href="public\cv\Sanjukin-Ndube-Pinem-Resume.pdf"
               download
               className="btn-primary bg-white text-gray-800 rounded-full text-lg shadow-lg px-6 py-3 font-semibold hover:bg-gray-100 transition"
             >
