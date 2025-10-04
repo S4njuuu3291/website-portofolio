@@ -34,7 +34,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start animate-fade-in-up delay-400">
             <a
-              href="/cv/Sanjukin-Ndube-Pinem-Resume.pdf"
+              href={`${import.meta.env.BASE_URL}cv/Sanjukin-Ndube-Pinem-Resume.pdf`}
               download
               className="btn-primary bg-white text-gray-800 rounded-full text-lg shadow-lg px-6 py-3 font-semibold hover:bg-gray-100 transition"
             >
@@ -52,7 +52,7 @@ export default function Hero() {
         {/* Profile Image */}
         <div className="md:w-1/2 flex justify-center md:justify-end animate-fade-in-right">
           <img
-            src="/profile.png"
+            src={`${import.meta.env.BASE_URL}profile.png`}
             alt="Sanju Profile Picture"
             className="rounded-full shadow-2xl border-4 border-white object-cover w-64 h-64 md:w-80 md:h-80"
           />
