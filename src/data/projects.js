@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Medan City Real Estate Price Prediction",
-    image: "src\\assets\\1.png",
+    image: "/1.png",
     desc: "End-to-end ML pipeline for property price prediction in Medan. Web scraping, feature engineering, stacking regressor, Optuna tuning, Streamlit deployment.",
     tags: ["Python", "Scikit-learn", "Optuna", "Streamlit"],
     github: "https://github.com/S4njuuu3291/medan-property-price-prediction",
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: "Loan Default Risk Prediction",
-    image: "src\\assets\\2.png",
+    image: "/2.png",
     desc: "ML models to predict credit default risk with Logistic Regression & Random Forest. Feature insights & SHAP explainability for business impact.",
     tags: ["Python", "Scikit-learn", "Optuna", "SHAP"],
     github: "https://github.com/S4njuuu3291/german-credit-data",
@@ -18,7 +18,7 @@ export const projects = [
   },
   {
     title: "Chatbot LMS Unpad",
-    image: "src\\assets\\3.png",
+    image: "/3.png",
     desc: "IndoBERT-based chatbot for academic Q&A. Built with FastAPI, Supabase, REST API integration.",
     tags: ["Python", "FastAPI", "Supabase", "IndoBERT"],
     github: "https://github.com/S4njuuu3291/lms-chatbot-pipp",
@@ -26,7 +26,7 @@ export const projects = [
   },
   {
     title: "Power BI – Online Retail Sales Dashboard",
-    image: "src\\assets\\4.png",
+    image: "/4.png",
     desc: "Analyzed 500k+ transactions with star schema & DAX. Interactive dashboard with YoY revenue, repeat buyers, return rates.",
     tags: ["Power BI", "DAX", "ETL"],
     github: "https://github.com/S4njuuu3291/PowerBI-OnlineRetail-Sales-Dashboard",
@@ -34,7 +34,7 @@ export const projects = [
   },
   {
     title: "Movie Recommender System – End-to-End Portfolio",
-    image: "src\\assets\\6.png",
+    image: "/6.png",
     desc: "End-to-end movie recommendation system dengan berbagai pendekatan (baseline, CF, matrix factorization, content-based, hybrid, neural). Deploy via Streamlit dengan dashboard interaktif.",
     tags: ["Python", "Scikit-learn", "TensorFlow", "Surprise", "Streamlit"],
     github: "https://github.com/S4njuuu3291/movie-recommender", 
@@ -43,7 +43,7 @@ export const projects = [
   },
   {
     title: "Customer Segmentation Dashboard – Mall Customer Dataset",
-    image: "src\\assets\\5.png", 
+    image: "/5.png", 
     desc: "Unsupervised clustering untuk segmentasi pelanggan mall berbasis data demografi dan perilaku belanja. Hasil divisualisasikan lewat dashboard interaktif untuk strategi marketing.",
     tags: ["Python", "Pandas", "Scikit-learn", "KMeans", "Streamlit"],
     github: "https://github.com/S4njuuu3291/mall-customer-segmentation",
